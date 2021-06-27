@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8090082878475020083}
   - component: {fileID: 2314142391799762008}
   - component: {fileID: 2479290127093891356}
+  - component: {fileID: 5692376977079055811}
   - component: {fileID: -5684398470102296015}
   - component: {fileID: 8543702509248813599}
   - component: {fileID: -8738917876295445941}
@@ -91,6 +92,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b92d2743378593428001e860f27ee01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5692376977079055811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5309709187031495724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31a277f7f7c06e4ba098eb99c098bf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &-5684398470102296015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,6 +133,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 5692376977079055811}
+          m_TargetAssemblyTypeName: Zoom, Assembly-CSharp
+          m_MethodName: onHoverExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 14
     callback:
       m_PersistentCalls:
@@ -127,6 +152,38 @@ MonoBehaviour:
         - m_Target: {fileID: 2479290127093891356}
           m_TargetAssemblyTypeName: DragAndDrop, Assembly-CSharp
           m_MethodName: EndDrag
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5692376977079055811}
+          m_TargetAssemblyTypeName: Zoom, Assembly-CSharp
+          m_MethodName: onHoverEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5692376977079055811}
+          m_TargetAssemblyTypeName: Zoom, Assembly-CSharp
+          m_MethodName: onHoverExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
